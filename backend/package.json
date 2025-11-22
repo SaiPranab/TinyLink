@@ -1,0 +1,17 @@
+{
+  "name": "tinylink-fullstack-app",
+  "version": "1.0.0",
+  "description": "A full-stack TinyLink clone built with Express and React.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npm start"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "mysql2": "^3.15.3"
+  }
+}
